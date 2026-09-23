@@ -1,0 +1,13 @@
+interface:
+  display_name: 社群自我介紹
+  short_description: 根據品牌定位與受眾需求，撰寫清楚可信的社群自我介紹
+  default_prompt: 使用 $profile-bio-writer，幫我建立社群帳號自我介紹。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
